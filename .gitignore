@@ -1,0 +1,11 @@
+*.o
+*.a
+*.d
+*.jpg
+dist/*
+debug/*
+main.cpp
+MakeFile
+nbproject/*
+
+
