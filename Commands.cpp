@@ -4,11 +4,11 @@ Commands::Commands(){
    
 }
 
-string Commands::writeData(string rapid_data, string name_var, string var){
+string Commands::writeData(RapidData* rd){
     
     stringstream ssend;
      
-    ssend << "wrdata " << rapid_data << " " << name_var << " " << var;
+    ssend << "wrdata " << rd->getRapidType() << " " << rd->getName() << " " << rd->getStringValue();
    
     return ssend.str();
 }

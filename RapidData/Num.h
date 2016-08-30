@@ -12,7 +12,7 @@ using namespace std;
 
 class Num:public RapidData{
 public:
-    Num();
+    Num(string name_var);
     string getRapidType();
     string getName();
     string getStringValue();

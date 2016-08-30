@@ -2,11 +2,13 @@
 
 using namespace std;
 
-Pos::Pos(){
+Pos::Pos(string name_var){
+    this->name = name_var;
+    this->rapid_type = "pos";
 }
 
 string Pos::getName(){
-    return "nada";
+    return this->name;
 }
 
 string Pos::getRapidType(){

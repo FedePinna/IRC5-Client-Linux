@@ -1,11 +1,12 @@
 #include "Num.h"
 
-Num::Num() {
+Num::Num(string name_var) {
+    this->name = name_var;
+    this->rapid_type = "num";
 }
 
 string Num::getName(){
-    
-    return "nada";
+    return this->name;
 }
 
 string Num::getRapidType(){

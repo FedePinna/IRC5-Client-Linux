@@ -14,7 +14,7 @@ class Pos:public RapidData{
     
 public:
     
-    Pos();
+    Pos(string name_var);
     string getRapidType();
     string getName();
     string getStringValue(); 

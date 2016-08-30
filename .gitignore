@@ -5,7 +5,7 @@
 dist/*
 debug/*
 main.cpp
-MakeFile
+Makefile
 nbproject/*
 
 
